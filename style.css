@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+.text-orange{
+    color: #ff6600;
+}
+.link-button{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    text-decoration: none;
+    padding:10px 25px;
+    border-radius: 50px;
+    color:#fff;
+    text-transform: capitalize;
+    display:inline-block;
+    margin-top: 20px;
+    box-shadow: 10px 10px 50px #FBA24F;
+}
+.global-width{
+    width: 90%;
+    margin:auto;
+}
+.flex-container{
+    display: flex;
+
+}
+.header-area{
+    width:50%;
+}
+.header-area img{
+    width:100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.header-area h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 60px;
+    margin-top: 100px;
+}
+.about-section{
+    background-image: url(image/aboutbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;       
+}
+.about-container{
+    padding:80px 0 0;
+}
+.about-img{
+     width:400px;
+     margin-left: 60px;
+    
+}
+.about-details{
+    width: 50%;
+    
+}
+.about-details h3{
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 700px;
+}
+.recipe-section-heading{
+    text-align: center;
+    padding-top: 30px;
+}
+.recipe-section-heading h3{
+    font-size:40px;
+    font-weight:700;
+}
+.recipe-items{
+    width:30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    margin-left: 30px;
+    margin-top: 20px ;
+
+}
+.recipe-thamnail{
+    padding: 10px;
+}
+.recipe-thamnail img{
+    width:100%;
+    border-radius: 10px;
+}
+.recipe-details{
+    padding: 0 10px ;
+    line-height:20px;
+    text-align:left;
+}
+.recipe-details p{
+    font-size:14px;
+    font-weight: 300;
+}
+.subscribe-area{
+    margin:40px 0;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+.subscription-from{
+    width: 80%;
+    padding: 50px 0;
+}
+.subscription-from input{
+    width:35%;
+    border: none;
+    padding:12px 10px;
+}
+.subscription-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    margin-top: 40px;
+    font-size: 20px;
+}
+ h3, h5{ 
+    margin:0;
+    padding:0;
+}
+.subscription-btn{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding:10px 20px
+}
+.subscriber-count{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px;
+    margin:100px auto 20px;
+    border-radius:10px;
+
+}
+.subscriber{
+    padding:50px 0 20px;
+    line-height:15px;
+}
+.subscriber h3{
+    font-size: 60px;
+    margin-right: 70px;
+     
+}
+.subscriber small{
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.footer-area{
+    text-align: center;
+    background-color: #0B0D17;
+    color:grey;
+}
+.footer-content{
+    padding:30px 0 40px
+}
+.footer-content p{
+    font-size:12px;
+}
+
